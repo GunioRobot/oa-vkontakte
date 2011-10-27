@@ -1,6 +1,6 @@
 = oa-vkontakte
 
-=== OmniAuth с версии 0.2.3 поддерживает (https://github.com/intridea/omniauth/pull/272) аутентификацию ВКонтакта через OAuth 2.0, предпочтительней использовать его. Этот репозиторий является устаревшим.  
+=== OmniAuth с версии 0.2.3 поддерживает (https://github.com/intridea/omniauth/pull/272) аутентификацию ВКонтакта через OAuth 2.0, предпочтительней использовать его. Этот репозиторий является устаревшим.
 
 Расширение для OmniAuth, реализующее аутентификацию через Vkontate Open Api.
 
@@ -44,7 +44,7 @@
       'first_name' => 'Nick',
       'last_name' => 'Recobra',
       'image' => 'http://cs191.vkontakte.ru/u00001/e_375bc433.jpg', # путь до вконтактовского аватара
-      'urls' => { 'Page' => 'http://vkontakte.ru/id1234567890' } 
+      'urls' => { 'Page' => 'http://vkontakte.ru/id1234567890' }
     }
   }
 
@@ -70,7 +70,7 @@ OmniAuth: http://github.com/intridea/omniauth
 Интеграция OmniAuth и Devise: http://railscasts.com/episodes/235-omniauth-part-1 и http://railscasts.com/episodes/236-omniauth-part-2
 
 == Note on Patches/Pull Requests
- 
+
 * Fork the project.
 * Make your feature addition or bug fix.
 * Add tests for it. This is important so I don't break it in a

@@ -24,7 +24,7 @@ module OmniAuth
       end
 
       attr_reader :app_id
-      
+
       def request_phase
         Rack::Response.new(vkontakte_login_page).finish
       end

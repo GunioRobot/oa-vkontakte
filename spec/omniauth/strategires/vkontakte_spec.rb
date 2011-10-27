@@ -45,8 +45,8 @@ describe OmniAuth::Strategies::Vkontakte, :type => :strategy do
       it "должен устанавливаться защищенный ключ" do
         OmniAuth.config.vkontakte_app_key.should == '6FF1PUlZfEyutJxctvtd'
       end
-  
-      
+
+
       it 'должен быть успешным' do
         last_response.should be_ok
       end
@@ -66,7 +66,7 @@ describe OmniAuth::Strategies::Vkontakte, :type => :strategy do
             'first_name' => 'Nick',
             'last_name' => 'Recobra',
             'image' => 'http://cs191.vkontakte.ru/u00001/e_375bc433.jpg',
-            'urls' => { 'Page' => 'http://vkontakte.ru/id1234567890' } 
+            'urls' => { 'Page' => 'http://vkontakte.ru/id1234567890' }
           }
         }
       end
